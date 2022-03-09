@@ -4,7 +4,7 @@ var page = 1;
 // default img
 const loadImage = async () => {
     let res = await fetch(
-      `https://api.unsplash.com/photos/?client_id=xcUUJf1lrIO_d5FCizTpQQZjBWL2Pa8Q8-aWSPiuzdQ&per_page=15&page=${page}`
+      `https://api.unsplash.com/photos/?client_id=6myA9-lS4-FN3KtNX64IdnEbLhgsuqKYn9UGQbm09SU&per_page=15&page=${page}`
     );
     let data = await res.json();
     showImage(data);
